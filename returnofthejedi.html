@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Star Wars Sequel</title>
+    <link id="icon" rel="icon" type="image/png" href="images/">
+    <link id="icon" rel="apple-touch-icon" type="image/png" href="images/" />
+
+    <!--STYLE SHEETS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap" rel="stylesheet">
+    <!--FONTS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!--JAVASCRIPT-->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!--BACK TO TOP-->
+    <button onclick="topFunction()" id="myBtn" title="back to top">
+        <i class="fas fa-arrow-alt-circle-up"></i>
+    </button>
+
+
+    <!-- NAVIGATION -->
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+        
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large"><i class="fas fa-times"></i></a>
+        <h3 class="sidebar-logo w3-center"><b>STAR<br>WARS</b></h3>
+        <a href="anewhope.html" onclick="w3_close()" class="w3-bar-item w3-button">A NEW HOPE</a>
+       <a href="empirestrikesback.html" onclick="w3_close()" class="w3-bar-item w3-button">THE EMPIRE STRIKES BACK</a>
+        <a href="returnofthejedi.html" onclick="w3_close()" class="w3-bar-item w3-button">THE RETURN OF THE JEDI</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">GALLERY</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">VIDEOS</a>
+    </nav>
+
+    <!-- Top menu on small screens -->
+     <a id="hamburger" href="javascript:void(0)" class="hamburger w3-button w3-white" onclick="w3_open()">☰</a>
+    <header class="nav w3-container w3-top w3-hide-large w3-white w3-xlarge">
+<!--         <a href="javascript:void(0)" class="hamburger w3-button w3-white" onclick="w3_open()">☰</a>-->
+        <span class="starwarsfont">
+            
+            <div class="starwarsfont">
+                <a href="index.html"> 
+                    <img src="image/starwarsnavlogo.png"> </a>
+            </div>
+                
+        </span>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+    <!--BODY TEXT-->
+    <div class="holder bg-green" id="home">
+        <div class="blocks block-one">
+            <img src="image/returnofthejedi.png">
+        </div>
+        <div class="blocks block-two block-text">
+            <p>Everything You Need To Know About Episode 6!</p> <br>
+            
+             <p>On Tatooine, C-3PO and R2-D2 deliver a message from Luke to Jabba: Luke wants to strike a deal for Han's release, and he's giving the droids to Jabba as a gift to establish good will. Jabba laughs off Luke's attempt at bargaining, but takes C-3PO as his new translator droid and gives R2-D2 a gig serving cocktails on his sail barge.</p> <br>
+            
+            <p>A bounty hunter shows up at Jabba's palace with Chewbacca, demanding payment, and makes a deal with Jabba. Later that night, the bounty hunter frees Han and reveals herself to be Princess Leia Organa. Before Han and Leia can escape, they're captured by Jabba. Leia's made Jabba's slave; Han's tossed in a cell with Chewbacca.</p>
+            
+        </div>
+        <div class="blocks block-three">
+            <img src="image/rojleiabounty.jpg">
+            <img src="image/rojleiakiss.gif">
+        </div>
+        <div class="blocks block-four block-text">
+            <p>Here comes Luke.</p> <br>
+
+            <p>He tries one last time to make a deal with Jabba for the release of his pals, but Jabba isn't having it. Luke is thrown to the rancor, a nasty dungeon monster, but ultimately defeats the toothy beast. Jabba's not happy. He sentences Luke, Han, and Chewbacca to death by sarlacc—another nasty monster—at the Pit of Carkoon. Meanwhile, Lando Calrissian hangs out undercover as one of Jabba's goons.</p> <br>
+
+            <p>The whole entourage heads for The Pit of Carkoon on Jabba's sail barge. Just as Luke's about to walk the plank, pirate style, into the pit, he starts a mutiny. Luke, Leia, Han, Chewbacca, and Lando fight back against Jabba and his henchmen, ultimately blowing up the sail barge and escaping. </p>
+        </div>
+        <div class="blocks block-five">
+           <img src="image/rojlukeescape.gif"> 
+        </div>
+        <div class="blocks block-six block-text">
+           <p>Luke makes a pit stop in Dagobah on his way to join the Rebels. He visits Yoda, who confirms that Darth Vader is his deadbeat dad. Then Yoda tells Luke that Leia is his twin sister, and Luke has to face Vader in order to become a full-fledged, card-carrying Jedi knight.</p> <br>
+         
+            <p>Then Yoda Dies.</p> <br>
+            <p>Sorry.</p>
+        
+        </div>
+        <div class="blocks block-seven">
+           <img src="image/rojlukereaction.gif">
+            <img src="image/rojyodadeath.gif">
+        </div>
+        <div class="blocks block-eight block-text">
+            <p>On Endor, Luke and Leia fend off Imperial stormtroopers on speeder bikes. Leia is momentarily MIA after falling off her speeder bike in the forest. Then Luke, Han, Leia and their whole motley crew meet the locals, the Ewoks, a furry race of primitive creatures who look like teddy bears and think C-3PO is a god. The Rebels and the Ewoks join forces.</p> <br>
+
+<p>Luke tells Leia that they're twins, and then he surrenders to Darth Vader. Luke tells Vader that he knows there's still good in his dear old dad, but Vader still delivers Luke to The Emperor. </p> <br>
+            <p>Luke and Darth Vader engage in an epic lightsaber battle that culminates in Luke chopping off Vader's robotic right hand. The Emperor congratulates Luke on finally embracing his hatred. Luke says he'll never, ever join the Dark Side, and The Emperor's super ticked off. Meanwhile, on Endor, the Rebel-Ewok alliance takes down the Imperial forces. Then they blow up the Death Star's defense shield.</p>
+           
+        </div>
+        <div class="blocks block-nine">
+           <img src="image/rojlukevsvader.gif">
+        </div>
+        <div class="blocks block-ten block-text">
+           <p>The Emperor and Luke go toe to toe. The Emperor repeatedly zaps Luke with Force Lightning like a demented wizard. Darth Vader just watches at first, as Luke writhes in pain, but finally Vader has enough. He picks up The Emperor, who electrocutes him, too, and chucks The Emperor into a nearby reactor shaft.</p> <br>
+
+<p>The Emperor explodes.</p> 
+        </div>
+        <div class="blocks block-eleven">
+           <img src="image/rojpalpdeathgif.gif">
+        </div>
+        
+        <div class="blocks block-twelve block-text">
+            <p>Meanwhile, Luke removes Darth Vader's mask, and Vader tells Luke he was right: He's still a good guy, and he wants Luke to make sure he tells Leia that, which leads to his death.</p> <br>
+ </div>
+        <div class="blocks block-thirteen">
+           <img src="image/rojvadermask.gif">
+            <img src="image/rojvaderdeath.gif">
+        </div>
+        
+        <div class="blocks block-fourteen block-text">
+            <p>Luke gets on a ship and skedaddles just before Lando's fleet blows up the Death Star. While Luke lays his father to rest, the entire galaxy celebrates. Luke joins the party on Endor with Han, Leia, Chewbacca, the droids, the Ewoks, and assorted Rebels. He steps away for a moment and spots the smiling spirits of Yoda, Obi-Wan, and his dad.</p> <br>
+
+<p>He smiles back, then returns to the party.</p> 
+ </div>
+        
+        <div class="blocks block-fifteen">
+           <img src="image/rojghosts.gif">
+            <img src="image/rojlukesmile.gif">
+        </div>
+        
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container bg-green">
+        <div class="w3-row-padding">
+            <div>
+                <div class="blocks block-three block-three-img w3-padding-24" w3-center>
+            <img src="image/lucasfilmswhite.png">
+        </div>
+                <div class="bg-green w3-center w3-padding-10">TM © Lucasfilm Ltd. All Rights Reserved</div>
+                <div class="bg-green w3-center w3-padding-24">Made by Vincent Chin</div>
+            </div>
+
+        </div>
+    </footer>
+ 
+
+</body></html>
